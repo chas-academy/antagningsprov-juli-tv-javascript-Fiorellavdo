@@ -7,7 +7,7 @@ function uppg6(){
 const names = ["Fiorella","Samuel","Uffe"];
 
     for (let i= 0; i < names.length; i++) { 
-        console.log (name [i]);
+        console.log (names[i]);
     }
 }
 
