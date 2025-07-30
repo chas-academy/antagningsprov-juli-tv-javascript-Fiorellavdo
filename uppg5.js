@@ -5,7 +5,7 @@ function uppg5() {
     // annars skriv ut "Det andra talet är större än det första"
 const tal1 = 10;
 const tal2 = 5;
-    If (tal1 > tal2) {
+    if (tal1 > tal2) {
 console.log("det första talet är större än det andra") 
     } else { 
         console.log("det andra talet är större än det första");
