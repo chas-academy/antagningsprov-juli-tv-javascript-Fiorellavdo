@@ -1,7 +1,7 @@
 
 function uppg4() {
   const person = { 
-    Name: "Fiorella"
+    name: "Fiorella",
     age: 25
 };
     // deklarera ett objekt med namnet person
