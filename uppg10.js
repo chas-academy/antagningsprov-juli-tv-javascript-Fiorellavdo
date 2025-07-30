@@ -7,9 +7,9 @@ function uppg10() {
     const other = [];
     // loopa igenom numbers och placera talen i respektive array
 for (let i = 0; i < numbers.length; i++) {
-    const num = numbers [i]
+    const num = numbers[i]
 
-    if(num > 10 && % 2 === 0) {
+    if(num > 10 && num % 2 === 0) {
         bigEven.push (num); 
     } else if (num < 10 && num % 2 !==0) {
         smallOdd.push (num); 
@@ -22,7 +22,7 @@ for (let i = 0; i < numbers.length; i++) {
     // other ska innehålla alla andra tal
     // returnera ett objekt med de tre arrayerna
 
-  Return { 
+  return { 
       bigEven,
       smallOdd,
       other
