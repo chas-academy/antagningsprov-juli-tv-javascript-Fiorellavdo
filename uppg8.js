@@ -16,15 +16,15 @@ const personer = [
 // skapa en fuktion som tar in en array som argument
 // skapa ett konditionsvillkor som gör att det bara är namnet på personerna som är
 //  över 30 år som skrivs ut i konsolen
-function SkrivUtNamnOver30(arr) {
-  för (let i = 0; i < arr.length; i++) {
+function skrivUtNamnOver30(arr) {
+  for (let i = 0; i < arr.length; i++) {
      if (arr[i].age > 30){
        console.log (arr[i].name);
      }
   }
 }
 // anropa funktionen och skicka med arrayen som argument
-SkrivUtNamnOver30 (personer);
+skrivUtNamnOver30 (personer);
 }
 
 module.exports = { uppg8 };
