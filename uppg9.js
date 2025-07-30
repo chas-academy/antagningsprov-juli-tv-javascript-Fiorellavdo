@@ -1,5 +1,3 @@
-
-
 function uppg9 () {
     // skapa en funktion som heter sort och tar in en array av siffror som argument
    function kollaOmJämtEllerUdda(arr) {
