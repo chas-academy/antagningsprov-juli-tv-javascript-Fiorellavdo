@@ -16,7 +16,7 @@ const personer = [
 // skapa en fuktion som tar in en array som argument
 // skapa ett konditionsvillkor som gör att det bara är namnet på personerna som är
 //  över 30 år som skrivs ut i konsolen
-Function SkrivUtNamnOver30(arr) {
+function SkrivUtNamnOver30(arr) {
   för (let i = 0; i < arr.length; i++) {
      if (arr[i].age > 30){
        console.log (arr[i].name);
