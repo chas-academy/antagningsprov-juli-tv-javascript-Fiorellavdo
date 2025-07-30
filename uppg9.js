@@ -17,7 +17,7 @@ function uppg9 () {
     // i if-sattsen skriv ut i konsolen resultatet
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
     // anropa funktionen och skicka med en array som argument
-Const siffror = [ 1,2,3,4,5,6]
+const siffror = [ 1,2,3,4,5,6]
 sort (siffror); 
 }
 
