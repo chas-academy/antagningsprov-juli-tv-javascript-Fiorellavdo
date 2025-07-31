@@ -3,7 +3,6 @@ function uppg9 () {
    function sort(arr){
     for (let i = 0; i < arr.length; i++) {
       const tal = arr[i];
-
       if (tal % 2 === 0) {
         console.log(tal, "jämt");
       } else {
