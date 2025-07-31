@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-
 
 function uppg7() {
-=======
-function uppg7() {
-   
->>>>>>> 795dece (Första commit med alla uppgifter)
 function sum(a,b) {
    return a + b;
 }
@@ -14,9 +8,4 @@ function sum(a,b) {
     // kalla på funktionen i en return statement och ge den parametrarna 5 och 10
 return sum (5,10);
 }
-<<<<<<< HEAD
 module.exports = { uppg7 };
-=======
-
-module.exports = { uppg7 };
->>>>>>> 795dece (Första commit med alla uppgifter)
