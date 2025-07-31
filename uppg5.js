@@ -8,7 +8,7 @@ const tal1 = 10;
 const tal2 = 5;
 
 if (tal1 > tal2) {
-  console.log("det första talet är större än det andra");
+  console.log("Det första talet är större än det andra");
 } else { 
-  console.log("det andra talet är större än det första");
+  console.log("Det andra talet är större än det första");
 }
