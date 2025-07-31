@@ -26,5 +26,9 @@ for (let i = 0; i < numbers.length; i++) {
    };  
  }
   
+<<<<<<< HEAD
   module.exports = { uppg10 };
   
+=======
+  module.exports = { uppg10 };
+>>>>>>> 795dece (Första commit med alla uppgifter)
