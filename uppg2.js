@@ -5,5 +5,4 @@ function uppg2() {
 const namn = "Fiorella";
 console.log(namn);
 }
-
 module.exports = { uppg2 };
