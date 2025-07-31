@@ -1,6 +1,6 @@
 function uppg9 () {
     // skapa en funktion som heter sort och tar in en array av siffror som argument
-  function sort(arr){
+   function sort(arr){
     for (let i = 0; i < arr.length; i++) {
       const tal = arr[i];
 
@@ -15,8 +15,7 @@ function uppg9 () {
     // i if-sattsen skriv ut i konsolen resultatet
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
     // anropa funktionen och skicka med en array som argument
-  const siffror = [1, 2, 3, 4, 5, 6];
-  sort(siffror);
+ const siffror = [1, 2, 3, 4, 5, 6];
+ sort(siffror);
 }
-
 module.exports = { uppg9 };
